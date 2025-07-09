@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PoseNet Skeleton</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.14.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/posenet@2.2.2"></script>
+  <style>
+    canvas { position: absolute; top: 0; left: 0; }
+  </style>
+</head>
+<body>
+  <video id="video" width="800" height="500" autoplay muted playsinline style="display:none;"></video>
+  <canvas id="canvas" width="800" height="500"></canvas>
+
+  <!-- Load your custom JS -->
+  <script src="sketch.js"></script>
+</body>
+</html>
